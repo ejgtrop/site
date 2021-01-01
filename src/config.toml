@@ -15,45 +15,44 @@ pygmentsCodeFences = true
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "pt"
 
 # Site Params
 [params]
 logo = "images/logo.png"
 
-# Gestion des langues : FR / EN / NL / DE
+# Language management
 [[Params.listeLangues]]
-code = "fr"
+code = "pt"
 [[Params.listeLangues]]
 code = "en"
 
 # meta data
-author = "Themefisher"
+author = "Eder Grassi"
 description = "This is meta description"
 
-# Gestion des langues : FR / EN / NL / DE
 [Languages]
-############ 1 - Site en FRANCAIS
-[Languages.fr]
+############ 1 - Site in Portuguese
+[Languages.pt]
 weight = 1
-languageCode = "fr-fr"
-title = "FRANCAIS Example site multi-language"
+languageCode = "pt-br"
+title = "PORTUGUESE Example site multi-language"
 dateFormat = "2 January 2006"
 
-home = "FR Home"
+home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "FRANCAIS Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerServiceTitle = "FRANCAIS Services"
-footerQuicklinkTitle = "FRANCAIS Quick links"
-footerAboutTitle = "FRANCAIS About"
-footerSubscribeTitle = "FRANCAIS Subscribe"
+footerDescription = "TODO: Alguma descricao aqui"
+footerServiceTitle = "Serviços"
+footerQuicklinkTitle = "Links"
+footerAboutTitle = "Sobre"
+footerSubscribeTitle = "Subscribe"
 
 # Hero Area Section
-[Languages.fr.params.hero]
+[Languages.pt.params.hero]
 enable  = true
-heading = "FRANCAIS We love to make brands grow"
+heading = "PORTUGUESE We love to make brands grow"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button  = true
 btnText = "Know More"
@@ -62,23 +61,23 @@ videoThumb = "images/slider/video-player-thumb.jpg"
 videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
 # About 2 Section
-[Languages.fr.params.aboutSm]
-enable  = true
-title   = "FRANCAIS We have explored the digital landscape with passion for a long time"
+[Languages.pt.params.aboutSm]
+enable  = false
+title   = "PORTUGUESE We have explored the digital landscape with passion for a long time"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
 
 # Blog Section On Homepage
-[Languages.fr.params.blog]
+[Languages.pt.params.blog]
 enable  = true
 topTitle= "OUR UNTOLD STORY"
-title   = "FRANCAIS Blog."
+title   = "PORTUGUESE Blog."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
 # Contact Section
-[Languages.fr.params.contact]
-enable  = true
+[Languages.pt.params.contact]
+enable  = false
 topTitle= "DROP US A NOTE"
-title   = "FRANCAIS Contact Us."
+title   = "PORTUGUESE Contact Us."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 address = "14/05, Stockhome <br> Victori Palace , United States"
 phone   = "(03) 9283 2617"
@@ -93,10 +92,10 @@ mapLongitude= "-0.127758"
 mapMarker   = "images/marker.png"
 
 # Call to Action Section on About Page
-[Languages.fr.params.cta]
-enable  = true
+[Languages.pt.params.cta]
+enable  = false
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "FRANCAIS Let's Create Something Together"
+title   = "PORTUGUESE Let's Create Something Together"
 subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 btnText = "Nous contacter"
 

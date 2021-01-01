@@ -1,0 +1,24 @@
+[about]
+other = "Sobre"
+[service]
+other = "Serviços"
+[portfolio]
+other = "Portfolio"
+[blog]
+other = "Blog"
+[contact]
+other = "Contato"
+
+[graphicdesign]
+other = "BR Graphic Design"
+[webdesign]
+other = "BR Web Design"
+[webdevelopment]
+other = "BR Web Development"
+
+[partners]
+other = "BR Partners"
+[faqs]
+other = "BR FAQ's"
+[badges]
+other = "BR Badges"
